@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/custom.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/audio.js" type="text/javascript"></script>
+    <title>Speech API - Text to Speech Sample</title>
+</head>
+<body>
+    <div class="container">
+        <div class="column small-10 small-centered medium-8 medium-centered text-center title">
+            <h2> Microsoft Cognitive Services </h2>
+		    <h2> Speech Services API - Text to Speech </h2>
+        </div>
+
+        <div>
+            <div class="form-group">
+                <label for="usr">Convert Text:</label>
+                <input type="text" class="form-control" placeholder="What would you like to convert to speech?" id="inputText">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="usr">Try Neural Text-to-speech?</label>
+                <br>
+                <label class="switch" style="margin-top: 5px;">
+                    <input type="checkbox" id="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <br>
+            <button type="button" class="btn btn-primary btn-block playBtn" onclick="playSound()">Play</button> 
+        </div>
+
+        <footer>
+            <hr />
+            <p class="pull-left"><a href="https://github.com/aaronchong888/Azure-Speech-TextToSpeech">Github</a></p>
+            <div class="pull-right">
+                <ul class="list-inline">
+                    <p>Powered by <a href="https://azure.microsoft.com/en-us/services/cognitive-services">Microsoft Cognitive Services</a></p>
+                </ul>
+            </div>    
+        </footer>
+    </div>
+</body>
+</html>

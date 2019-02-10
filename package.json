@@ -1,0 +1,15 @@
+{
+  "name": "neuraltts",
+  "version": "1.0.0",
+  "description": "Text to Speech Server",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  }
+}
